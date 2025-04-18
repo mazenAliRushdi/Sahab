@@ -308,3 +308,28 @@ a:hover {
 .call-to-action .btn:last-child {
   animation-delay: 0.2s;
 }
+
+/* About Section */
+#about.section-radical {
+  text-align: left;
+  padding: 100px 30px;
+}
+
+#about .section-radical__title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+#about .section-radical__title.will-animate {
+  transform: translateX(-30px);
+}
+#about .section-radical__title.animate {
+  transform: translateX(0);
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: var(--light-text-darker);
+  transition-delay: 0.2s; /* Delay the paragraph animation */
+}

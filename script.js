@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const elementsToAnimate = document.querySelectorAll();
+  const elementsToAnimate = document.querySelectorAll(
+    "#about .section-radical__title, #about p"
+  );
   elementsToAnimate.forEach((element) => {
     element.classList.add("will-animate"); // Add a class to identify animatable elements
     observer.observe(element);
