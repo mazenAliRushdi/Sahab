@@ -253,3 +253,58 @@ a:hover {
 .nav__toggle.active {
   color: var(--accent-color);
 }
+.nav__toggle.active {
+  color: var(--accent-color);
+}
+
+.hero-radical-v7__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  animation: fadeInUp 1.2s ease-out both;
+}
+
+.hero-text-container {
+  text-align: center;
+  padding: 40px;
+  z-index: 2;
+}
+
+.hero-radical-v7__title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  font-family: var(--font-family-primary);
+  color: var(--accent-color);
+  animation: slideInDown 1s ease-out both;
+}
+
+.hero-radical-v7__subtitle {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 50px;
+  line-height: 1.8;
+  animation: fadeIn 1.2s ease-out 0.5s both;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.call-to-action .btn {
+  animation: slideInUp 1s ease-out both;
+}
+
+.call-to-action .btn:last-child {
+  animation-delay: 0.2s;
+}

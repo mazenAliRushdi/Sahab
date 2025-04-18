@@ -11,4 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
       navToggle.classList.toggle("active");
     });
   }
+
+  const elementsToAnimate = document.querySelectorAll();
+  elementsToAnimate.forEach((element) => {
+    element.classList.add("will-animate"); // Add a class to identify animatable elements
+    observer.observe(element);
+  });
 });
