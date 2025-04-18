@@ -703,3 +703,91 @@ a:hover {
   color: var(--light-text);
   line-height: 1.8;
 }
+
+/* Footer */
+.footer-radical {
+  background-color: var(--primary-color-darker);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 80px 20px;
+  font-size: 0.9rem;
+}
+
+.footer-radical__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.footer-radical__col h3 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-radical__col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-radical__col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-radical__col ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color var(--transition-duration);
+}
+
+.footer-radical__col ul li a:hover {
+  color: white;
+}
+
+.footer-radical__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-radical__logo svg {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-radical__col p {
+  line-height: 1.8;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.social-links a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social-links a:hover {
+  color: white;
+}
+
+.footer-radical__bottom {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-radical__bottom a {
+  color: white;
+  margin: 0 10px;
+}
