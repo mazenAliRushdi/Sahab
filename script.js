@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const elementsToAnimate = document.querySelectorAll(
-    "#about .section-radical__title, #about p"
+    "#about .section-radical__title, #about p, .offer-card-v3"
   );
   elementsToAnimate.forEach((element) => {
     element.classList.add("will-animate"); // Add a class to identify animatable elements

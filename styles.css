@@ -333,3 +333,119 @@ a:hover {
   color: var(--light-text-darker);
   transition-delay: 0.2s; /* Delay the paragraph animation */
 }
+
+#about.section-radical {
+  text-align: left;
+  padding: 100px 30px;
+}
+
+#about .section-radical__title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+#about .section-radical__title.will-animate {
+  transform: translateX(-30px);
+}
+#about .section-radical__title.animate {
+  transform: translateX(0);
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: var(--light-text-darker);
+  transition-delay: 0.2s; /* Delay the paragraph animation */
+}
+
+/* Offers Section */
+.offers-section.section-radical {
+  padding: 100px 30px;
+  background-color: var(--light-bg-slightly-darker);
+}
+
+.offers-grid-v3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.offer-card-v3 {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--box-shadow-medium);
+  transition: transform var(--transition-duration),
+    box-shadow var(--transition-duration);
+}
+
+.offer-card-v3.will-animate {
+  transform: translateY(20px);
+}
+
+.offer-card-v3:nth-child(2).will-animate {
+  transition-delay: 0.15s;
+}
+
+.offer-card-v3:nth-child(3).will-animate {
+  transition-delay: 0.3s;
+}
+
+.offer-card-v3:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.offer-card-v3 img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.offer-card-v3:hover img {
+  transform: scale(1.03);
+}
+
+.offer-info-v3 {
+  padding: 30px;
+  text-align: left;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.offer-info-v3 h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--dark-text);
+  margin-bottom: 15px;
+  font-family: var(--font-family-primary);
+}
+
+.offer-price {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.offer-price .price {
+  font-size: 1.8rem;
+}
+
+.offer-details {
+  color: var(--light-text);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.offer-info-v3 .btn-secondary {
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  align-self: flex-start;
+}
