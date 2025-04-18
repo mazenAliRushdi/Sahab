@@ -34,7 +34,54 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero-radical-v7"></header>
+    <header class="hero-radical-v7">
+      <nav class="hero-radical-v7__nav">
+        <a href="#" class="nav__logo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+            <path
+              d="M25 50C38.807 50 50 38.807 50 25C50 11.193 38.807 0 25 0C11.193 0 0 11.193 0 25C0 38.807 11.193 50 25 50Z"
+              fill="#ffffff"
+            />
+            <path
+              d="M15 35L22 25L15 15M22 25L35 25M22 25L30 35M22 25L30 15"
+              stroke="#3498db"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Sahab
+        </a>
+        <button class="nav__toggle"><i class="ri-menu-line"></i></button>
+        <ul class="nav__links">
+          <li class="nav__item"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#about">About Us</a></li>
+          <li class="nav__item"><a href="#offers">Flight Offers</a></li>
+          <li class="nav__item">
+            <a href="#destinations">Our Destinations</a>
+          </li>
+          <li class="nav__item"><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="btn btn-primary contact__btn">Book Now</button>
+      </nav>
+      <div class="hero-radical-v7__content">
+        <div class="hero-text-container">
+          <h1 class="hero-radical-v7__title">Discover Your Next Adventure</h1>
+          <p class="hero-radical-v7__subtitle">
+            Explore amazing destinations and book your dream trip with ease.
+          </p>
+          <div class="call-to-action">
+            <a href="#offers" class="btn btn-secondary btn-large"
+              >View Offers</a
+            >
+            <a href="#destinations" class="btn btn-outline-light btn-large"
+              >Explore Destinations</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="hero-radical-v7__background"></div>
+    </header>
 
     <script src="https://unpkg.com/reveal.js"></script>
     <script src="script.js"></script>
