@@ -182,6 +182,69 @@
       </div>
     </section>
 
+    <section class="booking-section section-radical">
+      <h2 class="section-radical__title">Book Your Next Trip</h2>
+      <div class="booking-card-v9">
+        <div class="booking-card-v9__tabs">
+          <button class="active" data-tab="flights">Flights</button>
+          <button data-tab="hotels">Hotels</button>
+          <button data-tab="packages">Packages</button>
+        </div>
+        <div class="booking-card-v9__content">
+          <div id="flights" class="active">
+            <h3>Find Your Perfect Flight</h3>
+            <div class="form-group">
+              <label for="departure">Departure City</label>
+              <div class="input-wrapper">
+                <i class="ri-plane-departure-line"></i>
+                <input type="text" id="departure" placeholder="Enter city" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="arrival">Arrival City</label>
+              <div class="input-wrapper">
+                <i class="ri-plane-arrival-line"></i>
+                <input type="text" id="arrival" placeholder="Enter city" />
+              </div>
+            </div>
+            <div class="form-group date-pair">
+              <div class="date-input">
+                <label for="depart-date">Departure Date</label>
+                <input type="date" id="depart-date" />
+              </div>
+              <div class="date-input">
+                <label for="return-date">Return Date</label>
+                <input type="date" id="return-date" />
+              </div>
+            </div>
+            <div class="form-group travelers">
+              <label for="adults">Adults</label>
+              <select id="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <label for="children">Children</label>
+              <select id="children">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <button class="btn btn-primary btn-block">Search Flights</button>
+          </div>
+          <div id="hotels">
+            <h3>Find Your Ideal Hotel</h3>
+            <p>Hotel booking form will go here.</p>
+          </div>
+          <div id="packages">
+            <h3>Discover Our Holiday Packages</h3>
+            <p>Package booking options will go here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="https://unpkg.com/reveal.js"></script>
     <script src="script.js"></script>
   </body>
