@@ -201,3 +201,55 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.nav__logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  font-family: var(--font-family-primary);
+}
+
+.nav__logo svg {
+  width: 45px;
+  height: 45px;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav__item a {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  position: relative;
+  font-size: 1.05rem;
+  transition: color var(--transition-duration);
+}
+
+.nav__item a:hover {
+  color: white;
+}
+
+.nav__toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 4;
+  transition: color var(--transition-duration);
+}
+
+.nav__toggle:focus {
+  outline: none;
+}
+
+.nav__toggle.active {
+  color: var(--accent-color);
+}
